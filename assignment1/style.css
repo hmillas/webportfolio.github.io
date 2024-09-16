@@ -1,0 +1,89 @@
+
+
+
+
+html, body {
+	margin:100px;
+	padding:100px;
+	
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+header{
+     font-family: fantasy;
+    color:white;
+     background-color: #483D8B;
+    border: 5px;
+    padding: 5px;
+   
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+body {
+    font-family: fantasy;
+	
+    background-color: #000000;
+    border: 5px;
+    padding: 5px;
+    width: 100%;    
+    display: inline-block;
+    text-align: center;
+}
+    
+    h1 {
+        font-family: fantasy;
+  background-color: #483D8B;
+  color: white;
+}
+
+h2{
+    font-family: fantasy;
+    color:white;
+}
+
+
+p {
+    font-family: fantasy;
+    color:white;
+}
+
+
+
+footer{
+    font-family: fantasy;
+    color:white;
+     background-color: #DC143C;
+   
+    width: 100%;    
+    display: inline-block;
+    text-align: center;
+}
+
+
+div#container {
+	
+    font-family: fantasy;
+    background-color: #000080;
+  
+    width: 100%;    
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+
