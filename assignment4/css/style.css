@@ -1,0 +1,109 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+@font-face{
+    font-family:'Kranky-Regular';
+    src: url('../font/Kranky-Regular.ttf') format('truetype');
+}
+
+
+p{
+    font-family: Kranky-Regular;
+   text-shadow: 1px 1px;
+    font-size: 50px;
+    color:white;
+    text-align: justify-all;
+    line-height: 80%;
+    margin-top: 0px;
+        margin-bottom: 1px;
+}
+
+p2{
+     font-family: Kranky-Regular;
+   text-shadow: 2px 2px;
+    font-size: 50px;
+    color:white;
+    text-align: justify-all;
+    line-height: 50%;
+    margin-top: 0px;
+        margin-bottom: 1px;
+    
+    
+}
+
+p3{
+     font-family: Kranky-Regular;
+   text-shadow: 3px 3px;
+    font-size: 50px;
+    color:white;
+    text-align: justify-all;
+    line-height: 20%;
+    margin-top: 0px;
+        margin-bottom: 1px;
+    
+    
+}
+
+p4{
+     font-family: Kranky-Regular;
+   text-shadow: 4px 4px;
+    font-size: 50px;
+    color:white;
+    text-align: justify-all;
+    line-height: 1%;
+    margin-top: 0px;
+        margin-bottom: 1px;
+    
+    
+}
+
+
+header{
+    font-size: 30px;
+    font-family: Kranky-Regular;
+     color:white;
+         text-align: center;
+    
+}
+
+h2{
+    
+    color:#036ffc;
+    
+}
+body {
+	
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,111,252,1) 35%, rgba(1,212,255,1) 100%);
+}
+
+
+
+footer{
+    font-size: 25px;
+     color:white;
+    font-family: Kranky-Regular;
+    text-align: right;
+    margin-top: 50px;
+}
+#container {
+	
+}
+
+
+
+
