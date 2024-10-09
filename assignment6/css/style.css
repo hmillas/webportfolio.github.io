@@ -16,42 +16,54 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-	  background-repeat:repeat;
-  background-attachment:local;
-  background-size: cover;
- background-size: 50% 100%;
+	
+	
+    background: black url(../img/Big Daddy.jpg) fixed no-repeat center;
+    background-size:cover;
+    background:black;
+    
 }
 
 
 #container {
- padding-right:50px;
- padding-left:50px;
+	border:1px solid black;
+    padding:20px;
+    width:95%;
+    margin:auto;
+    Background:white;
+    font-family: Helvetica;
+    color: gold;
+    text-align: center;
+    
+}
+
+section {
+    border:1px solid red;
+    margin-bottom:2em;
+    padding:25px;
+}
+
+section#AndrewRyan {
+    background:Red;
+color: white;
+    font-family: Helvetica;
+}
+
+section#Hector {
+    font-family: Helvetica;
+    background:#cccccc;
+    color: blue;
 }
 
 
-header{
-    
-    
-    color: red;
+
+.desktop {
+    display:none;
 }
 
 
-p{
-    
 
-            background-color: white;  
-    
-}
-p2{
-  
-            background-color: white;
-float:left;
-  color: blue;
-    }
+
 
 /* ========================================
 MEDIA QUERIES!
@@ -63,7 +75,19 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
 	
-	
+    section#AndrewRyan {
+    width:42%;
+        float:left;
+    }
+    
+    section#Hector {
+        float:right;
+        width:43%;
+    }
+    
+    footer {
+       clear:both; 
+    }
 	
 	
 } /* closes 769px+ */
@@ -75,7 +99,22 @@ You can adjust the min-width numbers below, and add as many new media queries as
 @media all and (min-width: 1024px) {
 	
 	
-	
+    #container {
+        
+        width:950px;
+    }
+    
+    .mobile {
+        display:none;
+         
+        
+        
+    }
+    
+    .desktop {
+        display:block;
+        
+    }
 	
 } /* closes 1024px+ */
 
