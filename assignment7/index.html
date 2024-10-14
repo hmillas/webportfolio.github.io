@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+         <script>
+    
+    function dragonquest(){
+        
+        var dragon=[
+            
+          "Blue-eyes white Dragon",  
+          "Red-eyes Black Dragon", 
+          "Golden Dragon",  
+          "Silver Fang Dragon", 
+          "Electric Dragon",  
+          "Fire breather Dragon", 
+          "Black Amber Dragon",  
+          "Purple Mist Dragon", 
+          "Dragoon",  
+          "Adamantium Dragon"
+            
+            
+        ];
+        
+        
+                var createAnswer= dragon[Math.floor(Math.random()*dragon.length)];
+        document.getElementById("message").innerHTML=createAnswer;
+         
+         }
+         
+         
+     </script>
+    
+    <head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Assignment 7</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+    	
+</head>
+
+       
+<body>
+<div id="container">
+    
+    <header>
+    
+    <h1>Dragon Quest</h1>
+    
+    </header>
+    
+    
+    <main>
+        
+  
+    
+    
+    <form action="">
+        
+          <p> what Dragon do you like?</p>
+        
+        <input id="question" type="text">
+        <input type="button" onclick="dragonquest()" value="send">
+        
+        </form>
+        <section>
+        <p id="message"></p>
+            </section>
+</main>
+</div>
+</body>
+    
+    
+    
+    
+
+	
+</html> 
