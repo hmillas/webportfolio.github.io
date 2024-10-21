@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Assignment8</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+    
+    
+    
+    
+</head>
+
+<header id="top">
+    
+    <h1> Click here <br>if you want to see some of my art!!!!</h1>
+    <h>First Artwork</h>
+    <h2>Second Artwork</h2>
+    <h3>Third Artwork</h3>
+    <h4>Fourth Artwork</h4>
+    
+    
+    
+    
+    </header>
+<body id="bottom" >
+
+   
+    <p>Hello, This is a Print template. </p>
+    
+    <p>My goal is to engrave this <br> on a piece of brich wood and print it on a letterpress. </p>
+    
+    <p2><mark>Click here for the second artwork</mark></p2>
+    
+    
+ 
+    
+    <p3>This is a inksketch that I brought into illustrator.
+    <br>
+    I vectorized it digitally
+    </p3>
+    <br>
+    <br>
+    <p4><mark>Click here for the next one</mark></p4>
+    
+
+    
+    
+    
+    
+    <p5>This is a inksketch I made on paper.</p5>
+    <br>
+    <br>
+    <p6><mark>Click here for another one</mark></p6>
+    
+    
+    <p7>This is another inksketch, I made it on paper.</p7>
+    <br>
+    <br>
+    <p8><mark>Click here to go back to the start!!!!</mark></p8>
+    
+  <div id="container">
+
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      
+      
+      
+<script>
+  $(document).ready(function() {
+
+
+  }); //close .ready()
+</script>
+
+      <script>
+      
+        $('h').hide();   
+          $('h2').hide();
+          $('h3').hide();
+          $('h4').hide();
+         
+          
+          $('p').hide();
+          $('p2').hide();
+          $('p3').hide();
+          $('p4').hide(); 
+          $('p5').hide();
+          $('p6').hide();
+            $('p7').hide();
+          $('p8').hide();
+          
+    $('h1').click(function(){
+        
+     $('h').show();
+        
+        
+    $('p').show();
+      $('p2').show();
+        
+        $('h1').hide();
+        
+        
+        
+    $('body').addClass('special');
+    
+    });
+      
+      
+      
+      </script>
+      
+        <script>
+      
+    
+    $('p2').click(function(){
+    $('p').hide();
+     $('p2').hide(); 
+    $('h').hide();    
+        
+ $('body').removeClass('special');
+        
+        $('p3').show();
+        $('p4').show();
+        $('h2').show();
+        
+        $('body').addClass('big');
+    $('h1').hide();
+        
+    
+    });
+      
+        
+      </script>
+      
+      
+      
+      <script>
+      
+      
+       $('p4').click(function(){
+    $('p2').hide();
+     $('p4').hide();
+       $('p3').hide();  
+           
+       $('h2').hide();    
+        
+ $('body').removeClass('big');
+        
+        $('h3').show();
+         $('p5').show();
+           $('p6').show();
+        
+    
+        $('body').addClass('ranger');
+   
+      
+      });
+      
+      </script>
+
+      
+      <script>
+      
+      $('p6').click(function(){
+      
+      
+       $('h3').hide();
+         $('p5').hide();
+           $('p6').hide();
+      
+      
+        $('body').removeClass('ranger');   
+        $('body').addClass('upside');
+          
+          
+        $('h4').show();   
+          
+          
+      $('p7').show();
+      $('p8').show();
+          
+          
+          
+      
+            });
+      </script>
+      
+      
+      
+        <script>
+      
+      $('p8').click(function(){
+      
+      
+       $('h2').hide();
+          $('h3').hide();
+          $('h4').hide();
+         
+          
+          $('p').hide();
+          $('p2').hide();
+          $('p3').hide();
+          $('p4').hide(); 
+          $('p5').hide();
+          $('p6').hide();
+          $('p7').hide();
+          $('p8').hide();
+       
+          
+           $('h').show();
+          
+          
+      $('p').show();
+      $('p2').show();  
+          
+          
+          
+        $('body').removeClass('upside');   
+        $('body').addClass('special');
+          
+              
+          
+          
+      
+            });
+      </script>
+      
+      
+      
+      
+      
+      
+      
+  </div><!-- close "container" -->
+  
+
+</body>
+	
+</html> 

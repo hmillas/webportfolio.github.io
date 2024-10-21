@@ -1,0 +1,204 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    background-color: black;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+header{
+    
+    margin:15px;
+	padding:15px;
+    
+}
+
+body {
+	
+	margin:10px;
+	padding:10px;
+   
+}
+
+h{
+   font-size: 35px; 
+    
+}
+
+
+
+
+h2{
+   font-size: 35px; 
+    
+}
+
+h3{
+    font-size: 35px;
+    
+}
+
+h4{
+    font-size: 35px;
+    
+}
+
+
+
+p{
+    
+ font-size: 25px;   
+    
+}
+
+
+
+p3{
+    
+ font-size: 25px;   
+    
+}
+
+
+p5{
+    
+ font-size: 25px;   
+    
+}
+
+
+p7{
+    
+ font-size: 25px;   
+    
+}
+
+
+
+p2{
+font-size: 2em;
+    
+}
+
+p4{
+font-size: 2em;
+    
+}
+
+
+
+p6{
+font-size: 2em;
+    
+}
+
+p8{
+font-size: 2em;
+    
+}
+
+
+
+
+
+#top {
+	margin:15px;
+	padding:15px; 
+   color: darkorchid;
+}
+
+#bottom {
+
+ margin:10px;
+	padding:10px;   
+  color:red;
+
+}
+
+
+.special{
+    
+    background:url('../img/Wayzgoose%20print.jpg') fixed no-repeat center;
+    background-size:contain; 
+    
+}
+
+.big{
+    
+    background:url(../img/Big%20Daddy%20Vector.png) fixed no-repeat center;
+    
+    background-size:contain;
+    
+    
+}
+
+
+.ranger{
+    
+    background:url(../img/Ranger.jpg) fixed no-repeat center;
+    
+    background-size:contain;
+    
+    
+}
+
+
+
+
+.upside{
+    
+    background:url(../img/Upside%20down.jpg) fixed no-repeat center;
+    
+    background-size:contain;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
