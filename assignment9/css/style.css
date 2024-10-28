@@ -1,0 +1,89 @@
+body{
+    
+    padding: 15px;
+    background-color: black;
+    
+    
+}
+
+h1{
+    
+    padding: 15px;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
+figure{
+    
+    padding:15px;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+p{
+  
+    padding:15px;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+    figure{
+      
+        
+       
+        
+          padding:15px;
+        
+    
+        
+        
+    }
+    
+    
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	 figure{
+        
+          display:flex;
+         
+        justify-content: center; 
+    
+         
+      flex: 0 1 20%; 
+        
+         
+         
+       
+    }
+	
+	
+} /* closes 1024px+ */
+
+
+
+
+
