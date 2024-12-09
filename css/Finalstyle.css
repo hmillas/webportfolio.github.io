@@ -1,0 +1,127 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+ul{  
+font-size:1.75em; 
+    padding-left:0px;
+    text-align: center;
+     background-color:black;
+}
+a{
+    
+    color:rgb(255,0,0);
+}
+
+a:hover{
+    
+    color:grey;
+}
+
+body {
+ font-family: monospace,sans-serif;
+     background:rgb(114,118,130);
+         color:black;
+    margin:1px;
+	
+}
+
+main{
+    text-align: center;
+    align-content: center;
+}
+
+
+figure{
+    margin:0px;
+   
+}
+
+figure img{
+    
+    width: 50%;
+align-content: center;
+    
+}
+
+figcaption,footer{
+    
+    font-size:0.75em;
+}
+
+
+
+p1{
+    font-size: 250%;
+    color: black;
+}
+
+p3{
+    color: red;
+    
+}
+
+
+li{
+ 
+}
+
+header{
+    
+    text-align: center;
+    align-content: center;
+    color: red;
+}
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+  
+    
+    
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+     figure img{
+    
+    width: 25%;
+align-content: center;
+    
+}    
+         
+       
+    }
+	
+	
+} /* closes 1024px+ */
+
+
+
+
+
+
+
+
