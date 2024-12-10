@@ -42,8 +42,8 @@ body {
 }
 
 main{
-    text-align: center;
-    align-content: center;
+    padding: 25px;
+    
 }
 
 
@@ -66,12 +66,12 @@ figcaption,footer{
 
 
 
-p1{
+#head{
     font-size: 250%;
     color: black;
 }
 
-p3{
+#red{
     color: red;
     
 }
@@ -91,9 +91,26 @@ li{
 header{
     
     text-align: center;
-    align-content: center;
     color: red;
 }
+
+.center{
+    
+    text-align: center;
+    
+    
+    
+}
+
+#Bigger{
+    
+    width: auto;
+    text-align: center;
+    
+}
+
+
+
 
 /* ========================================
 MEDIA QUERIES!
