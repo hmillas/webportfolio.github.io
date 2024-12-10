@@ -13,24 +13,34 @@ html {
 
 
 ul{  
-  list-style:disc;
+ 
     padding-left:0px;
     
+font-size:1.75em; 
+    padding-left:0px;
+   
+     
+   
+    
+    
+    
+    
+
 }
 a{
     
-    color:rgb(255,0,0);
+    color:black;
 }
 
 a:hover{
     
-    color:rgb(0,0,255);
+    color:whitesmoke;
 }
 
 body {
  font-family: monospace,sans-serif;
      background:rgb(114,118,130);
-         color:rgb(0,172,255);
+         color:white;
     margin:1px;
 	
 }
