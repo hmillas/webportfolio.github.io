@@ -17,6 +17,11 @@ font-size:1.75em;
     padding-left:0px;
     text-align: center;
      background-color:black;
+   
+    
+    
+    
+    
 }
 a{
     
@@ -71,6 +76,13 @@ p3{
     
 }
 
+#dis{
+    
+  color:gray;
+   text-align: center;
+    align-content: center;
+    
+}
 
 li{
  
@@ -115,6 +127,22 @@ align-content: center;
        
     }
 	
+ul{{
+    
+   display: flex;
+    
+    flex: 50%;
+    
+    padding: 50px;
+     flex-direction: row; 
+    
+    
+    
+    }
+
+
+
+
 	
 } /* closes 1024px+ */
 
